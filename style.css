@@ -1,0 +1,34 @@
+#main-container {
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+}
+th {
+  color: #01017c;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+}
+td {
+  min-width: 300px;
+  max-width: 300px;
+}
+th, td {
+  line-height: 1.5em;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.seafield {
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+}
+
+#searchresult {
+  width: 300px;
+  height: 50px;
+  overflow: auto;
+  color: #0000ff;
+}

@@ -1,0 +1,214 @@
+[
+	{
+		"name": "Åland Islands",
+		"capital": "Mariehamn"
+	},
+	{
+		"name": "Albania",
+		"capital": "Tirana"
+	},
+	{
+		"name": "Andorra",
+		"capital": "Andorra la Vella"
+	},
+	{
+		"name": "Austria",
+		"capital": "Vienna"
+	},
+	{
+		"name": "Belarus",
+		"capital": "Minsk"
+	},
+	{
+		"name": "Belgium",
+		"capital": "Brussels"
+	},
+	{
+		"name": "Bosnia and Herzegovina",
+		"capital": "Sarajevo"
+	},
+	{
+		"name": "Bulgaria",
+		"capital": "Sofia"
+	},
+	{
+		"name": "Croatia",
+		"capital": "Zagreb"
+	},
+	{
+		"name": "Cyprus",
+		"capital": "Nicosia"
+	},
+	{
+		"name": "Czech Republic",
+		"capital": "Prague"
+	},
+	{
+		"name": "Denmark",
+		"capital": "Copenhagen"
+	},
+	{
+		"name": "Estonia",
+		"capital": "Tallinn"
+	},
+	{
+		"name": "Faroe Islands",
+		"capital": "Tórshavn"
+	},
+	{
+		"name": "Finland",
+		"capital": "Helsinki"
+	},
+	{
+		"name": "France",
+		"capital": "Paris"
+	},
+	{
+		"name": "Germany",
+		"capital": "Berlin"
+	},
+	{
+		"name": "Gibraltar",
+		"capital": "Gibraltar"
+	},
+	{
+		"name": "Greece",
+		"capital": "Athens"
+	},
+	{
+		"name": "Guernsey",
+		"capital": "St. Peter Port"
+	},
+	{
+		"name": "Holy See",
+		"capital": "Rome"
+	},
+	{
+		"name": "Hungary",
+		"capital": "Budapest"
+	},
+	{
+		"name": "Iceland",
+		"capital": "Reykjavík"
+	},
+	{
+		"name": "Ireland",
+		"capital": "Dublin"
+	},
+	{
+		"name": "Isle of Man",
+		"capital": "Douglas"
+	},
+	{
+		"name": "Italy",
+		"capital": "Rome"
+	},
+	{
+		"name": "Jersey",
+		"capital": "Saint Helier"
+	},
+	{
+		"name": "Latvia",
+		"capital": "Riga"
+	},
+	{
+		"name": "Liechtenstein",
+		"capital": "Vaduz"
+	},
+	{
+		"name": "Lithuania",
+		"capital": "Vilnius"
+	},
+	{
+		"name": "Luxembourg",
+		"capital": "Luxembourg"
+	},
+	{
+		"name": "Macedonia (the former Yugoslav Republic of)",
+		"capital": "Skopje"
+	},
+	{
+		"name": "Malta",
+		"capital": "Valletta"
+	},
+	{
+		"name": "Moldova (Republic of)",
+		"capital": "Chișinău"
+	},
+	{
+		"name": "Monaco",
+		"capital": "Monaco"
+	},
+	{
+		"name": "Montenegro",
+		"capital": "Podgorica"
+	},
+	{
+		"name": "Netherlands",
+		"capital": "Amsterdam"
+	},
+	{
+		"name": "Norway",
+		"capital": "Oslo"
+	},
+	{
+		"name": "Poland",
+		"capital": "Warsaw"
+	},
+	{
+		"name": "Portugal",
+		"capital": "Lisbon"
+	},
+	{
+		"name": "Republic of Kosovo",
+		"capital": "Pristina"
+	},
+	{
+		"name": "Romania",
+		"capital": "Bucharest"
+	},
+	{
+		"name": "Russian Federation",
+		"capital": "Moscow"
+	},
+	{
+		"name": "San Marino",
+		"capital": "City of San Marino"
+	},
+	{
+		"name": "Serbia",
+		"capital": "Belgrade"
+	},
+	{
+		"name": "Slovakia",
+		"capital": "Bratislava"
+	},
+	{
+		"name": "Slovenia",
+		"capital": "Ljubljana"
+	},
+	{
+		"name": "Spain",
+		"capital": "Madrid"
+	},
+	{
+		"name": "Svalbard and Jan Mayen",
+		"capital": "Longyearbyen"
+	},
+	{
+		"name": "Sweden",
+		"capital": "Stockholm"
+	},
+	{
+		"name": "Switzerland",
+		"capital": "Bern"
+	},
+	{
+		"name": "Ukraine",
+		"capital": "Kiev"
+	},
+	{
+		"name": "United Kingdom of Great Britain and Northern Ireland",
+		"capital": "London"
+	}
+]

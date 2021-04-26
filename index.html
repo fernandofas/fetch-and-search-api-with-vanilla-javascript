@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="main-container">
+        <h1>Search and Display - Countries and Capitals of Europe</h1>
+        <div id="search">
+            <h3>Search Capitals</h3>
+            <input id="searchfield" class="seafield"></input>
+            <div id="searchresult"></div>
+        </div>
+        <div id="myData">
+            <h3>Countries and Capitals of Europe</h3>
+            <table id="europeCountries">
+                <th>Country</th>
+                <th>Capital</th>
+            </table>
+        </div>
+    </div>
+    <script>
+        fetch('http://restcountries.eu/rest/v2/region/europe?fields=name;capital')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                console.log(data);
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+
+
+        function appendData(data) {
+
+            document.getElementById('searchfield').addEventListener('keyup', function () {
+                let pattern = new RegExp(this.value, 'i');
+                let resultSet = data.filter(item => item.name.match(pattern) && this.value != '').map(item =>
+                    `${item.capital}`).join(', ');
+                document.getElementById('searchresult').innerHTML = resultSet;
+            });
+
+            const tds = document.getElementById("europeCountries");
+            for (var i = 0; i < data.length; i++) {
+
+                const divs = document.createElement("tr");
+                divs.innerHTML = '<td>' + data[i].name + '</td>' + '<td>' + data[i].capital + '</td>';
+                tds.appendChild(divs);
+
+            }
+        }
+    </script>
+</body>
+
+</html>
